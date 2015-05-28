@@ -5,7 +5,7 @@
   "@type": "schema:CreativeWork",
   "schema:datePublished": "October 4, 2006",
   "schema:description": "In this activity, students will engage in active problem solving as they create a design for a map leading to a hidden treasure. They will work in collaborative groups, explore numerical problems, and explain the strategies they used to solve design problems.",
-  "schema:learningResourceType" : "teacher",
+  "schema:learningResourceType" : "lesson plan",
   "schema:audience": [
     {
       "@type": "schema:EducationalAudience",
