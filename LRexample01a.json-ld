@@ -8,8 +8,8 @@
   "schema:learningResourceType" : "teacher",
   "schema:audience": [
     {
-      "@type": "EducationalAudience",
-      "educationalRole": "Teacher"
+      "@type": "schema:EducationalAudience",
+      "schema:educationalRole": "Teacher"
     }
   ],
   "schema:educationalAlignment": [
