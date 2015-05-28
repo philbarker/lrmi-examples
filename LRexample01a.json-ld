@@ -5,23 +5,32 @@
   "@type": "schema:CreativeWork",
   "schema:datePublished": "October 4, 2006",
   "schema:description": "In this activity, students will engage in active problem solving as they create a design for a map leading to a hidden treasure. They will work in collaborative groups, explore numerical problems, and explain the strategies they used to solve design problems.",
+  "schema:learningResourceType" : "teacher"
+  "schema:audience": [
+    {
+      "@type": "EducationalAudience",
+      "educationalRole": "Teacher"
+    }
+  ],
   "schema:educationalAlignment": [
     {
       "@type": "schema:AlignmentObject",
       "schema:alignmentType": "Educational level",
       "schema:educationalFramework": "US Grade Levels",
-      "schema:targetName": "PreK"
+      "schema:targetName": "Pre-K"
+      "schema:targetUrl": "http://purl.org/ASN/scheme/ASNEducationLevel/Pre-K"
     },
     {
       "@type": "schema:AlignmentObject",
       "schema:alignmentType": "Educational level",
       "schema:educationalFramework": "US Grade Levels",
       "schema:targetName": "1"
+      "schema:targetUrl": "http://purl.org/ASN/scheme/ASNEducationLevel/1"
     },
     {
       "@type": "schema:AlignmentObject",
       "schema:alignmentType": "teaches",
-      "schema:educationalFramework": "Common Core State Standards",
+      "schema:educationalFramework": "Common Core State Standards for English Language Arts & Literacy",
       "schema:targetDescription": "Follow agreed-upon rules for discussions (e.g., listening to others and taking turns speaking about the topics and texts under discussion).",
       "schema:targetName": "CCSS.ELA-Literacy.SL.K.1a",
       "schema:targetUrl": [
@@ -36,7 +45,7 @@
     {
       "@type": "schema:AlignmentObject",
       "schema:alignmentType": "teaches",
-      "schema:educationalFramework": "Common Core State Standards",
+      "schema:educationalFramework": "Common Core State Standards for English Language Arts & Literacy",
       "schema:targetDescription": "Continue a conversation through multiple exchanges.",
       "schema:targetName": "CCSS.ELA-Literacy.SL.K.1b",
       "schema:targetUrl": [
@@ -51,7 +60,7 @@
     {
       "@type": "schema:AlignmentObject",
       "schema:alignmentType": "teaches",
-      "schema:educationalFramework": "Common Core State Standards",
+      "schema:educationalFramework": "Common Core State Standards for English Language Arts & Literacy",
       "schema:targetDescription": "Confirm understanding of a text read aloud or information presented orally or through other media by asking and answering questions about key details and requesting clarification if something is not understood.",
       "schema:targetName": "CCSS.ELA-Literacy.SL.K.2",
       "schema:targetUrl": [
