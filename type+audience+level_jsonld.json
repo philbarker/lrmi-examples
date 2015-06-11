@@ -1,0 +1,22 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "CreativeWork",
+  "name": "Designing a treasure map",
+  "learningResourceType": [
+    "learning activity",
+    "lesson plan"
+    ],
+  "audience": {
+    "@type": "schema:EducationalAudience",
+    "schema:educationalRole": "teacher"
+  },
+  "educationalAlignment": {
+    "@type": "schema:AlignmentObject",
+    "alignmentType": "Educational level",
+    "educationalFramework": "US Grade Levels",
+    "targetName": "2",
+    "targetUrl": {
+      "@id": "http://purl.org/ASN/scheme/ASNEducationLevel/2"
+     }
+  }
+}
