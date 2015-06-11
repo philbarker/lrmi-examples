@@ -1,17 +1,18 @@
+<script type="application/ld+json">
 {
   "@context": "http://schema.org/",
   "@type": "CreativeWork",
   "name": "Designing a treasure map",
   "learningResourceType": [
-    "learning activity",
-    "lesson plan"
+    "lesson plan",
+    "learning activity"
     ],
   "audience": {
-    "@type": "schema:EducationalAudience",
-    "schema:educationalRole": "teacher"
+    "@type": "EducationalAudience",
+    "educationalRole": "teacher"
   },
   "educationalAlignment": {
-    "@type": "schema:AlignmentObject",
+    "@type": "AlignmentObject",
     "alignmentType": "Educational level",
     "educationalFramework": "US Grade Levels",
     "targetName": "2",
@@ -20,3 +21,4 @@
      }
   }
 }
+</script>
