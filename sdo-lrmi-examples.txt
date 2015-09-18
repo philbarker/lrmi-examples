@@ -1,4 +1,4 @@
-TYPES: #lrmi-1 EducationalAudience, AlignmentObject, learningResourceType, educationalRole, audience, educationalAlignment 
+TYPES: #lrmi-1 learningResourceType, educationalAlignment, AlignmentObject, educationalFramework, alignmentType, targetName, targetUrl, audience, EducationalAudience, educationalRole
 
 PRE-MARKUP:
  
@@ -84,7 +84,7 @@ JSON:
 }
 </script>
 
-TYPES: #lrmi-2 AlignmentObject, educationalAlignment, educationalFramework, alignmentType, targetName, targetUrl, typicalAgeRange, timeRequired
+TYPES: #lrmi-2 typicalAgeRange, timeRequired, educationalAlignment, AlignmentObject, educationalFramework, alignmentType, targetName, targetUrl
  
 PRE-MARKUP:
 <div>

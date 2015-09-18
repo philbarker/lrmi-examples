@@ -13,7 +13,8 @@ Simple example including educational resource types, an educational target audie
 * type+audience+level_md.html - same as type+audience+level.htm but with microdata in the HTML
 * type+audience+level_rdfa.html - same as type+audience+level.htm but with RDFa in the HTML
 * type+audience+level_jsonld.json - same resource as described in type+audience+level.htm but described in JSON-LD
-Suggested for submission to schema.org as an example for educationalAlignment, AlignmentObject + its properties, learningresourceType, audience, EducationalAudience, educationalRole
+
+Suggested for submission to schema.org as an example for learningResourceType, educationalAlignment, AlignmentObject, educationalFramework, alignmentType, targetName, targetUrl, audience, EducationalAudience, educationalRole
 
 ###alignmentsUK
 Example of lesson plan for use of a video, showing curriculum alignment of the lesson plan to levels and topics in UK national curricula. Loosely based on http://www.bbc.co.uk/education/clips/z3sjtfr 
@@ -21,7 +22,8 @@ Example of lesson plan for use of a video, showing curriculum alignment of the l
 * alignmentsUK_md.html - same as type+audience+level.htm but with microdata in the HTML
 * alignmentsUK_rdfa.html - same as type+audience+level.htm but with RDFa in the HTML
 * alignmentsUK_jsonld.json - same resource as described in type+audience+level.htm but described in JSON-LD
-Suggested for submission to schema.org as an example for educationalAlignment, AlignmentObject and the relevant properties of alignment object
+
+Suggested for submission to schema.org as an example for typicalAgeRange, timeRequired, educationalAlignment, AlignmentObject, educationalFramework, alignmentType, targetName, targetUrl
 
 ###sdo-lrmi-examples.txt
 Fully prepped examples in schema.org examples text file format.
