@@ -42,7 +42,8 @@
       "targetUrl" : "http://example.org/ENC/subjects/3102"
     }
   ],
-  
+  "url" : "http://example.org/lessonplan",
+
   "video": {
     "@type": "VideoObject",
     "description": "Video description",

@@ -13,7 +13,18 @@ Example plain HTML description including educational resource types, an educatio
 * type+audience+level_rdfa.html - same as type+audience+level.htm but with RDFa in the HTML
 * type+audience+level_jsonld.json - same resource as described in type+audience+level.htm but described in JSON-LD
 
-Note: all variants of type+audience+level.html validate with:
+###alignmentsUK
+Example of lesson plan for use of a video, showing curriculum alignment of the lesson plan to levels and topics in UK national curricula. Loosely based on http://www.bbc.co.uk/education/clips/z3sjtfr 
+* alignmentsUK.html - plain HTML
+* alignmentsUK_md.html - same as type+audience+level.htm but with microdata in the HTML
+* alignmentsUK_rdfa.html - same as type+audience+level.htm but with RDFa in the HTML
+* alignmentsUK_jsonld.json - same resource as described in type+audience+level.htm but described in JSON-LD
+Suggested for submission to schema.org as an example for educationalAlignment, AlignmentObject and the relevant properties of alignment object
+
+###sdo-lrmi-examples.txt
+Fully prepped examples in schema.org examples text file format.
+
+Note: validate with:
 * https://developers.google.com/structured-data/testing-tool/
 * https://webmaster.yandex.com/microtest.xml
 * http://linter.structured-data.org/
