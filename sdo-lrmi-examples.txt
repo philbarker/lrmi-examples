@@ -8,7 +8,7 @@ PRE-MARKUP:
   <p>Resource type: lesson plan, learning activity</p>
   <p>Target audience: teachers</p>
   <p>Educational level: US Grade 2</p>
-  <p>Location: <a href="http://example.org/lessonplan">http://example.org/lessonplan</a></p>
+  <p>Link to lesson plan: <a href="http://example.org/lessonplan">http://example.org/lessonplan</a></p>
 </div>
 
 MICRODATA:
@@ -30,7 +30,7 @@ MICRODATA:
         <span itemprop="targetName">2</span>
         <link itemprop="targetUrl" href="http://purl.org/ASN/scheme/ASNEducationLevel/2" />
     </p>
-    <p>Location: <a itemprop="url" href="http://example.org/lessonplan">http://example.org/lessonplan</a></p>
+    <p>Link to lesson plan: <a itemprop="url" href="http://example.org/lessonplan">http://example.org/lessonplan</a></p>
 </div>
 
 RDFA:
@@ -53,7 +53,7 @@ RDFA:
         <span property="targetName">2</span>
         <span rel="targetUrl" resource="http://purl.org/ASN/scheme/ASNEducationLevel/2"></span>
     </p>
-    <p>Location: <a property="url" href="http://example.org/lessonplan">http://example.org/lessonplan</a></p>
+    <p>Link to lesson plan: <a property="url" href="http://example.org/lessonplan">http://example.org/lessonplan</a></p>
 </div>
 
 JSON:
@@ -89,7 +89,9 @@ TYPES: #lrmi-2 typicalAgeRange, timeRequired, educationalAlignment, AlignmentObj
 PRE-MARKUP:
 <div>
     <h1>The Declaration of Arbroath</h1>
-    <p>A video and lesson plan for teachers. Typical length of lesson, 1 hour. Recommended for children aged 10-12 years old. 
+    <p>A lesson plan for teachers with associated video. 
+       Typical length of lesson, 1 hour. 
+       Recommended for children aged 10-12 years old.
     </p>
     <p>Subject: Wars of Scottish independence</p>
     <p>Alignment to curriculum:</p>
@@ -99,14 +101,16 @@ PRE-MARKUP:
         </li>
         <li>Scotland 
             SCQF: Level 2
-            Curriculum for Excellence: Social studies: people past events and societies: The Wars of Independence
+            Curriculum for Excellence: Social studies: people past events and societies
         </li>
     </ul>
-    <p>Location: <a href="http://example.org/lessonplan">http://example.org/lessonplan</a></p>
+    <p>Link to lesson plan: <a href="http://example.org/lessonplan">http://example.org/lessonplan</a></p>
     <video>
         <source src="http://example.org/movie.mp4" type="video/mp4" />
         Duration 03:12
     </video>
+    <p>This example is based on <a href="http://www.bbc.co.uk/education/clips/z3sjtfr">Declaration of Arbroath</a> from BBC Bitesize</p>
+
 </div>
 
 MICRODATA:
@@ -149,13 +153,13 @@ MICRODATA:
             <span itemprop="educationalAlignment"
                   itemscope itemtype="http://schema.org/AlignmentObject">
                 <meta itemprop="alignmentType" content="educationalSubject" />
-                <span itemprop="educationalFramework"> Curriculum for Excellence: </span>
-                <span itemprop="targetName">Social studies: people past events and societies: The Wars of Independence</span>
+                <span itemprop="educationalFramework"> Curriculum for Excellence</span>:
+                <span itemprop="targetName">Social studies: people past events and societies</span>
                 <link itemprop="targetUrl" href="http://example.org/CFE/subjects/3362">
             </span>
         </li>
     </ul>
-    <p>Location: <a itemprop="url" href="http://example.org/lessonplan">http://example.org/lessonplan</a></p>
+    <p>Link to lesson plan: <a itemprop="url" href="http://example.org/lessonplan">http://example.org/lessonplan</a></p>
     <video itemprop="video" itemscope itemtype="http://schema.org/VideoObject">
         <source itemprop="url" src="http://example.org/movie.mp4" type="video/mp4">
         <span itemprop="name">Video Title</span>
@@ -164,6 +168,7 @@ MICRODATA:
         <img itemprop="thumbnailUrl" src="http://example.org/thubnail.mp4" alt="thumbnail" >
         Duration: <span itemprop="duration">03:12</span>        
     </video>
+    <p>This example is based on <a itemprop="isBasedOnUrl" href="http://www.bbc.co.uk/education/clips/z3sjtfr">Declaration of Arbroath</a> from BBC Bitesize</p>
 </div>
 
 RDFA:
@@ -206,13 +211,13 @@ RDFA:
             <span rel="educationalAlignment"
                   typeof="http://schema.org/AlignmentObject">
                 <meta property="alignmentType" content="educationalSubject" />
-                <span property="educationalFramework"> Curriculum for Excellence: </span>
-                <span property="targetName">Social studies: people past events and societies: The Wars of Independence</span>
+                <span property="educationalFramework"> Curriculum for Excellence</span>: 
+                <span property="targetName">Social studies: people past events and societies</span>
                 <link property="targetUrl" href="http://example.org/CFE/subjects/3362" />
             </span>
         </li>
     </ul>
-    <p>Location: <a property="url" href="http://example.org/lessonplan">http://example.org/lessonplan</a></p>
+    <p>Link to lesson plan: <a property="url" href="http://example.org/lessonplan">http://example.org/lessonplan</a></p>
     <video rel="video" typeof="http://schema.org/VideoObject">
         <source property="url" src="http://example.org/movie.mp4" type="video/mp4" />
         <span property="name">Video Title</span>
@@ -221,6 +226,7 @@ RDFA:
         <img property="thumbnailUrl" src="http://example.org/thubnail.mp4" alt="thumbnail" />
         Duration: <span property="duration">03:12</span> 
     </video>
+    <p>This example is based on <a property="isBasedOnUrl" href="http://www.bbc.co.uk/education/clips/z3sjtfr">Declaration of Arbroath</a> from BBC Bitesize</p>
 </div>
 
 JSON:
@@ -242,8 +248,8 @@ JSON:
     {
       "@type": "AlignmentObject",
       "alignmentType": "educationalSubject",
-      "educationalFramework": " Curriculum for Excellence: ",
-      "targetName": "Social studies: people past events and societies: The Wars of Independence",
+      "educationalFramework": " Curriculum for Excellence",
+      "targetName": "Social studies: people past events and societies",
       "targetUrl": "http://example.org/CFE/subjects/3362"      
     },
     {
@@ -278,7 +284,8 @@ JSON:
     "thumbnailUrl": "http://example.org/thubnail.mp4",
     "uploadDate": "2000-01-01",
     "url" : "http://example.org/movie.mp4"
-  }
+  },
+  "isBasedOnUrl": "http://www.bbc.co.uk/education/clips/z3sjtfr"
 }
 </script>
 

@@ -1,5 +1,4 @@
 <script type="application/ld+json">
-
 {
   "@context":  "http://schema.org/",
   "@type": "WebPage",
@@ -16,8 +15,8 @@
     {
       "@type": "AlignmentObject",
       "alignmentType": "educationalSubject",
-      "educationalFramework": " Curriculum for Excellence: ",
-      "targetName": "Social studies: people past events and societies: The Wars of Independence",
+      "educationalFramework": " Curriculum for Excellence",
+      "targetName": "Social studies: people past events and societies",
       "targetUrl": "http://example.org/CFE/subjects/3362"      
     },
     {
@@ -43,7 +42,6 @@
     }
   ],
   "url" : "http://example.org/lessonplan",
-
   "video": {
     "@type": "VideoObject",
     "description": "Video description",
@@ -52,6 +50,7 @@
     "thumbnailUrl": "http://example.org/thubnail.mp4",
     "uploadDate": "2000-01-01",
     "url" : "http://example.org/movie.mp4"
-  }
+  },
+  "isBasedOnUrl": "http://www.bbc.co.uk/education/clips/z3sjtfr"
 }
 </script>
